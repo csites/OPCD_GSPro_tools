@@ -24,6 +24,12 @@ apt install cudnn9-cuda-12-8 libcudnn-frontend-dev libcudnn9-static-cuda-12 libc
 # Optional Docker GPU stuff for like ollama and things. 
 apt-get install -y nvidia-container-toolkit
 
+# Optional for Python venv environment;
+apt install git python3-pip python3-venv libstdc++-12-dev
+python3 -m venv ~/venv
+From now on use; 
+source ~/venv/bin/activate before running your code, or add '#!/home/you_login_here/venv/bin/python3' for the shebang line of the python code (ie: line 1).
+
 # Note; version numbers may change with time. 
 
 If that all looks good then we need to get the SAM libraries and the vit_h and vit_b checkpoint files specifically.  Please refer to these sites on SAM;
@@ -58,4 +64,4 @@ If that all looks good then we need to get the SAM libraries and the vit_h and v
 
 ## License
 
-GPLv3.  Basically if you have a change to the basic code that works for you, I would love to see or hear about it.  
+GPLv3.  Basically if you have a changes to the basic code that works for you, I would love to see or hear about it.  
