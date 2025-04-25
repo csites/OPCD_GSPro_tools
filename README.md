@@ -58,7 +58,13 @@ If that all looks good then we need to get the SAM libraries and the vit_h and v
 # Usage
 
 *(This section would detail how to prepare input images and run each scripts)*
+--
 
+# Results
+<p> Every one likes a pretty image.  This is an svg image (scalable) and suitable for import into Inkscape of a SAM segmentation of the 
+    Seneca golf course areial imagery. </p>
+    
+<img src="Seneca_B_Inner.svg" alt="SAM segmented SVG image of Areial Image of Seneca Golf Course (KY)">
 ---
 
 ## Credits
