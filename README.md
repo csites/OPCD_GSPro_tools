@@ -42,8 +42,20 @@ If that all looks good then we need to get the SAM libraries and the vit_h and v
     </code>
 </pre>
 
-    </code>
-</pre>
+# Usage
 
+*(This section would detail how to prepare input images and run each scripts)*
 
+---
 
+## Credits
+
+* Special thanks to Google Gemini for invaluable assistance with Python coding and understanding complex libraries like `segment-anything` and SVG processing.
+* Initial inspiration and dataset context from the work of Vinícius Soares Matthiesen on "Semantic Segmentation of Danish Golf Courses U-Net" ([https://www.kaggle.com/code/viniciussmatthiesen/semantic-segmentation-of-danish-golf-courses-u-net](https://www.kaggle.com/code/viniciussmatthiesen/semantic-segmentation-of-danish-golf-courses-u-net)).
+* Based on the original Segment Anything Model (SAM) by Meta AI ([https://github.com/facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)).
+
+---
+
+## License
+
+GPLv3.  Basically if you have a change to the basic code that works for you, I would love to see or hear about it.  
