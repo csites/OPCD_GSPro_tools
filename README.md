@@ -77,4 +77,4 @@ If that all looks good then we need to get the SAM libraries and the vit_h and v
 
 ## License
 
-GPLv3.  Basically if you have a changes to the basic code that works for you, I would love to see or hear about it.  
+GPLv3.  Basically if you have changes to the basic code that works for you, I would love to see or hear about it.  
