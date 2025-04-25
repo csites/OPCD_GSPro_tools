@@ -1,5 +1,12 @@
 <h1># OPCD_GSPro_tools</h1></B>
-<h2>Tools for building GSPro golf courses</h2>
+<h2>Tools for building GSPro golf courses by automating aerial image segmentation. </h2>
+
+This project provides Python 3 tools to assist in creating course models for the GSPro golf simulator. Leveraging deep learning models like Meta's Segment Anything Model (SAM) and PyTorch, these tools aim to automate the tedious process of classifying and segmenting golf course features (fairways, greens, bunkers, etc.) from aerial orthophotos (like those from Google Earth or Bing Maps). The output is designed to integrate into common GSPro course development workflows involving manual refinement in software like Inkscape.
+
+**Note:** These tools are computationally intensive and are currently best suited for environments with NVIDIA GPUs and CUDA support. While CPU execution is possible, it is impractically slow for model training.
+
+---
+
 <p>
 <H3>INTRO:</H3>
 </p>
