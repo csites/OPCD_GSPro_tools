@@ -1,0 +1,1 @@
+./sam1_svg10.py ./Seneca_G_Inner.jpg -o ./Seneca_G_Inner.svg --smoothing_method gaussian --smoothing_sigma 5.0 --points_per_side 63 --device cuda --stability_score_thresh 0.90 --min_mask_region_area 30 --rdp_epsilon 0.25 --sam_checkpoint ../training/sam_vit_b_01ec64.pth --sam_trained_checkpoint ../training/sam_finetuned_golf_epoch_10.pth --model_type vit_b
