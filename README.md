@@ -6,7 +6,7 @@ This project provides Python 3 tools to assist in creating course models for the
 **Note:** These tools are computationally intensive and are currently best suited for environments with NVIDIA GPUs and CUDA support. While CPU execution is possible, it is impractically slow for model training.
 
 ---
-p>
+<p>
 <H3>INTRO:</H3>
 </p>
 <p>These are all pretty heavy programs, segmentation programs, or segmentation training programs written in python3 on Ubuntu and use CUDA, Pytorch, and Meta's Segment Anything. It uses TensorFlow extensively and is very heavy on the GPU. While you can run the segmentation programs on CPU, they can take hours even on the beefiest CPUs. I estimated that on my Ryzen 9 5950X at 4.5GHz, it was still going to take 10 days to run the training program whereas with a simple Nvidia RTX 4060 it would be about 6 hours. Initially I tried running on ROCM and an AMD 6900RX, but that got complicated and broken really fast. So this code may never work for the AMD GPU cards sadly. </p>
@@ -49,7 +49,7 @@ If that all looks good, then we need to get the SAM libraries and the vit\_h and
 * SAM 2 paper: https://arxiv.org/abs/2408.00714
 </code></pre>
 
-<p> Do visit the site https://github.com/facebookresearch/segment-anything. It is an amazing cool tool, and you will probably understand using SAM to segment golf course images. Also, do download that code base. It's fun to play with in Jupyter notebook on Ubuntu. You will need to download a 'vit\_' SAM model listed in the SAM documentation.</p>
+<p> Do visit the site https://github.com/facebookresearch/segment-anything. It is an amazing, cool tool, and you will probably understand using SAM to segment golf course images. Also, do download that code base. It's fun to play with in a Jupyter notebook on Ubuntu. You will need to download a 'vit\_' SAM model listed in the SAM documentation.</p>
 <pre>
     <code>
         Small lightweight: vit_b -> https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
@@ -58,6 +58,12 @@ If that all looks good, then we need to get the SAM libraries and the vit\_h and
     </code>
 </pre>
 
+# Future work:   SAM training.   To train SAM, we need many, many segmented and labeled golf courses to train the AI. 
+While reading the "Zeros to Ones" Discord discussions, someone mentioned a tool that would take the export from 
+OpenStreetMaps (or the Overpass API) and convert it to SVG (osm2svg.py).  I've used OpenStreetMaps before, so I tried it, 
+liked what I saw, and decided to start another project, osm2svg4opcd.  The goal of that project is to create a fully
+segmented and color-labeled golf course SVG that would pass the OPCD cloud tool 'Clender'.   This may be a better tool
+for someone who wants to create their first course quickly.  See http://github/csites/osm2svg4opcd.
 
 # Usage
 
