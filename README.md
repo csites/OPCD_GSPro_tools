@@ -58,7 +58,9 @@ If that all looks good, then we need to get the SAM libraries and the vit\_h and
     </code>
 </pre>
 
-# Future work:   SAM training.   To train SAM, we need many, many segmented and labeled golf courses to train the AI. 
+# Future work   
+
+SAM training.   To train SAM, we need many, many segmented and labeled golf courses to train the AI. 
 While reading the "Zeros to Ones" Discord discussions, someone mentioned a tool that would take the export from 
 OpenStreetMaps (or the Overpass API) and convert it to SVG (osm2svg.py).  I've used OpenStreetMaps before, so I tried it, 
 liked what I saw, and decided to start another project, osm2svg4opcd.  The goal of that project is to create a fully
