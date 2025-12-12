@@ -65,7 +65,7 @@ While reading the "Zeros to Ones" Discord discussions, someone mentioned a tool 
 OpenStreetMaps (or the Overpass API) and convert it to SVG (osm2svg.py).  I've used OpenStreetMaps before, so I tried it, 
 liked what I saw, and decided to start another project, osm2svg4opcd.  The goal of that project is to create a fully
 segmented and color-labeled golf course SVG that would pass the OPCD cloud tool 'Clender'.   This may be a better tool
-for someone who wants to create their first course quickly.  See http://github/csites/osm2svg4opcd.
+for someone who wants to create their first course quickly.  See https://github.com/csites/osm2svg4opcd
 
 # Usage
 
